@@ -1,0 +1,25 @@
+/* Loader Styles */
+.loader-container {
+  min-height: 100vh;
+  background-color: #09090b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-content {
+  text-align: center;
+}
+
+.loader-icon {
+  width: 48px;
+  height: 48px;
+  color: #10b981;
+  margin: 0 auto 16px;
+  animation: spin 1s linear infinite;
+}
+
+.loader-message {
+  color: #a1a1aa;
+  font-weight: 500;
+}

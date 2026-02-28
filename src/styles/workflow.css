@@ -1,0 +1,77 @@
+/* workflow.css */
+
+.workflow {
+  padding: 80px 20px;
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+.workflow h2 {
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.workflow-steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.workflow-card {
+  background-color: #020617;
+  border: 1px solid #1e293b;
+  padding: 25px;
+  width: 240px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.workflow-card:hover {
+  transform: translateY(-6px);
+}
+
+.workflow-card.active {
+  border-color: #2563eb;
+}
+
+.step-number {
+  display: inline-block;
+  background-color: #1ad7ba;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.workflow-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.workflow-card p {
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+.workflow-indicator {
+  margin-top: 40px;
+  height: 6px;
+  background-color: #1e293b;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indicator-bar {
+  height: 100%;
+  background-color: #2563eb;
+  transition: width 0.4s ease;
+}

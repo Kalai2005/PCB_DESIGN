@@ -1,0 +1,80 @@
+/* Navbar Styles */
+.navbar {
+  border-bottom: 1px solid #27272a;
+  background-color: rgb(252, 252, 252);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.navbar-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-logo-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #10b981;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.nav-logo:hover .nav-logo-icon {
+  transform: rotate(12deg);
+}
+
+.nav-logo-text {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.025em;
+  color: #0d0d0d;
+}
+
+.nav-logo-text-accent {
+  color: #10b981;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #5f5f63;
+}
+
+.nav-link {
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #66f5c1; /* emerald-400 */
+}
+
+.nav-cta {
+  background-color: #10b981;
+  color: #09090b;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  transition: background-color 0.2s ease;
+}
+
+.nav-cta:hover {
+  background-color: #45ffbb;
+}

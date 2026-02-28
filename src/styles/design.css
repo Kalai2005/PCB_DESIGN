@@ -1,0 +1,102 @@
+/* Design Input & Form Styles */
+.design-page {
+  min-height: 100vh;
+  background-color: #09090b;
+  padding-top: 96px;
+  padding-bottom: 80px;
+}
+
+.design-container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.design-card {
+  background-color: #18181b;
+  border: 1px solid #27272a;
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+  .design-card {
+    padding: 48px;
+  }
+}
+
+.design-header {
+  margin-bottom: 32px;
+}
+
+.design-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.design-subtitle {
+  font-size: 20px;
+  color: #71717a;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #a1a1aa;
+}
+
+.input-field {
+  width: 100%;
+  background-color: #09090b;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  padding: 12px 16px;
+  color: #f4f4f5;
+  transition: border-color 0.2s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #10b981;
+}
+
+.btn-generate {
+  width: 100%;
+  padding: 16px;
+  background-color: #10b981;
+  color: #09090b;
+  font-weight: 700;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  margin-top: 24px;
+}
+
+.btn-generate:hover {
+  background-color: #71ffcb;
+}
+
+.btn-generate:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

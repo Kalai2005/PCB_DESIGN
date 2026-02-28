@@ -1,0 +1,5 @@
+{
+  "name": "PCB AI Generator",
+  "description": "AI-powered PCB power supply design automation tool.",
+  "requestFramePermissions": []
+}
