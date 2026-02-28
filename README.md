@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Assisted PCB Generator
 
-# Run and deploy your AI Studio app
+AI Assisted PCB Generator is a web-based intelligent application that automates
+power supply PCB design using AI-driven decision logic. The system converts basic
+electrical requirements into optimized circuit topology, component selection,
+and ready-to-edit KiCad schematics.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/8197c65c-a004-43c8-8a2f-91946b7fed0f
+## 🚀 Features
 
-## Run Locally
+- Instant topology selection (Buck / Boost / Linear)
+- Precise electrical calculations
+- Optimized component recommendations
+- PCB layout guidelines and best practices
+- Downloadable KiCad schematic output
+- Clean React-based frontend with traditional CSS
 
-**Prerequisites:**  Node.js
+---
 
+## 🧠 How It Works
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. User enters input voltage, output voltage, and current
+2. AI logic selects the suitable circuit topology
+3. Electrical parameters are calculated automatically
+4. Components are optimized based on constraints
+5. KiCad schematic is generated for further editing
+
+---
+
+## 🛠️ Technology Stack
+
+**Frontend**
+- React (JSX)
+- Traditional CSS
+
+**Backend**
+- Node.js / FastAPI (logic layer)
+- Rule-based AI (ML-ready architecture)
+
+**EDA Integration**
+- KiCad schematic generation
+
+---
+
+## 📁 Project Structure
