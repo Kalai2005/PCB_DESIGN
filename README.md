@@ -37,5 +37,5 @@ and ready-to-edit KiCad schematics.
 - KiCad schematic generation
 
 
-
+![AI Assisted PCB Generator](./screenshots/home.png)
 
