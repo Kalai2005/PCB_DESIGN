@@ -44,3 +44,10 @@ and ready-to-edit KiCad schematics.
 ---
 
 ## 📁 Project Structure
+src/
+├── components/
+├── pages/
+├── services/
+├── styles/
+├── App.jsx
+└── main.jsx
